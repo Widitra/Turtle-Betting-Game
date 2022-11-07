@@ -4,13 +4,13 @@ import random
 is_race_on = False
 is_there_a_winner = False
 screen = Screen()
-screen.setup(width=600, height=400)
-turtle_color = ["red", "orange", "yellow", "green", "blue", "purple"]
-y_position = [125, 75, 25, -25, -75, -125]
+screen.setup(width=600, height=500)
+turtle_color = ["pink", "red", "orange", "yellow", "green", "blue", "purple", "black"]
+y_position = [175, 125, 75, 25, -25, -75, -125, -175]
 all_turtle = []
 all_players_bet = []
 
-for turtle_index in range(0, 6):
+for turtle_index in range(0, 8):
     new_turtle = Turtle(shape="turtle")
     new_turtle.color(turtle_color[turtle_index])
     new_turtle.penup()
